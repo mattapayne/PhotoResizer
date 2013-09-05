@@ -49,9 +49,9 @@
             // 
             this.btnSelectFolder.Location = new System.Drawing.Point(18, 12);
             this.btnSelectFolder.Name = "btnSelectFolder";
-            this.btnSelectFolder.Size = new System.Drawing.Size(134, 23);
+            this.btnSelectFolder.Size = new System.Drawing.Size(209, 38);
             this.btnSelectFolder.TabIndex = 0;
-            this.btnSelectFolder.Text = "Select Folder";
+            this.btnSelectFolder.Text = "Select Source Image Folder";
             this.btnSelectFolder.UseVisualStyleBackColor = true;
             this.btnSelectFolder.Click += new System.EventHandler(this.btnSelectFolder_Click);
             // 
@@ -59,7 +59,7 @@
             // 
             this.btnOK.Location = new System.Drawing.Point(242, 146);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.Size = new System.Drawing.Size(75, 33);
             this.btnOK.TabIndex = 1;
             this.btnOK.Text = "Ok";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@
             // 
             this.btnCancel.Location = new System.Drawing.Point(161, 146);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(75, 33);
             this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -127,7 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 171);
+            this.ClientSize = new System.Drawing.Size(322, 183);
             this.Controls.Add(this.lblDirectory);
             this.Controls.Add(this.lblHeight);
             this.Controls.Add(this.lblWidth);
