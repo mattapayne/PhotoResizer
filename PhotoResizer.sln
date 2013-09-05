@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoResizer", "PhotoResizer\PhotoResizer.csproj", "{626A1C53-1845-4F26-A441-FF0D310F0B83}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PhotoResizerInstaller", "PhotoResizerInstaller\PhotoResizerInstaller.vdproj", "{F4AF95E3-34C8-4D90-B18A-0D42B80EA83C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,9 @@ Global
 		{626A1C53-1845-4F26-A441-FF0D310F0B83}.Debug|x86.Build.0 = Debug|x86
 		{626A1C53-1845-4F26-A441-FF0D310F0B83}.Release|x86.ActiveCfg = Release|x86
 		{626A1C53-1845-4F26-A441-FF0D310F0B83}.Release|x86.Build.0 = Release|x86
+		{F4AF95E3-34C8-4D90-B18A-0D42B80EA83C}.Debug|x86.ActiveCfg = Debug
+		{F4AF95E3-34C8-4D90-B18A-0D42B80EA83C}.Release|x86.ActiveCfg = Release
+		{F4AF95E3-34C8-4D90-B18A-0D42B80EA83C}.Release|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
